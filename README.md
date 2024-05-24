@@ -1,23 +1,16 @@
 # React Weather App
 
-A weather app made using react + tailwind CSS
+This responsive weather app was created with React, Tailwind CSS, OpenWeather API and GeoDB Cities API.
 
-To run the app run npm install followed by npm run dev
+# Features
 
-go to open weather and create an account, follow the process and create an API key
-
-insert api key in the react_weather_app/blob/main/src/services/weatherService.js file under API_KEY
-
-Basic Features
-
-grabs weather data fr
-
-Added Features
-
-- Background changes colour depending on if the sun has set
-- auto complete for city search
-- accordion added
-- current location feature added
+- Search by city name or your current location.
+- Auto-complete city search.
+- Real-time weather data for current, hourly and daily forecast.
+- Dynamic Backgrounds, background changes based on the time of day.
+- Comprehensive Weather information, view sunrise and sunset time, temperature, humidity, wind speed, and more at a glance.
+- Current location weather information search.
+- Expandable accordions for daily forecasts to provide more weather information.
 
 
 ![SCR-20240524-sveo](https://github.com/samuelchen17/react_weather_app/assets/54968307/c7dcc527-f7a7-41c0-9f29-66832d3a94d3)
